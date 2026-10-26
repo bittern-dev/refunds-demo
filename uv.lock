@@ -1,0 +1,101 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "annotated-types"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c4/71/annotated-types-0.7.0.tar.gz", hash = "sha256:c47193b137c0f280ea21130539a3f91059983b12888bc560aa800430a27a0db1" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/93/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:01c51e74bae7cbadc0ab603b9721316b343dde0d793c6e363be0a023a34f8d84" }]
+
+[[package]]
+name = "anyio"
+version = "4.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/db/61/anyio-4.9.0.tar.gz", hash = "sha256:db619acc2f6d0d0d52c1fe23f7fd7c343d8fd4a6cb5f7e8f72ceb7b4c048b56b" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/9a/anyio-4.9.0-py3-none-any.whl", hash = "sha256:5ddf616e16211a21c2089f7b0cbbc2cb4bd0cbfa733fc5783624e336372021b4" }]
+
+[[package]]
+name = "fastapi"
+version = "0.115.12"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/de/53/fastapi-0.115.12.tar.gz", hash = "sha256:de53bfa05ed5cd36241fb4a93a3dab3066968d96dddea8d64ed16f634b34a04a" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/bf/fastapi-0.115.12-py3-none-any.whl", hash = "sha256:1ccd4e323f73e8a94018164cdb9ce9e88fb51c8bbea561e94a9646971481fc0b" }]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/b3/idna-3.10.tar.gz", hash = "sha256:d1b37a93e9ed2bacb7273dda50344f82fbeccc661f552f0f6217ba90a3e3a1bf" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/7a/idna-3.10-py3-none-any.whl", hash = "sha256:6b16e2fe5a734a2f8704242573130c4db454e06678d9aeef91a26a0d62cf5be7" }]
+
+[[package]]
+name = "pydantic"
+version = "2.11.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/13/df/pydantic-2.11.4.tar.gz", hash = "sha256:13df272f3917749b81f24b4ece0fa546b2dc4dfb55b675d17b23f51d85e6adf1" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/27/pydantic-2.11.4-py3-none-any.whl", hash = "sha256:1ec713bba2db07a39f3a41303d51ab950fa31e4087ccd9e394e47ebf4f0f0614" }]
+
+[[package]]
+name = "pydantic-core"
+version = "2.33.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a8/cb/pydantic-core-2.33.2.tar.gz", hash = "sha256:a8cb7432070c9bdda83325f7c64157a5dc0680f6efc02ca41000905711fbeffa" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/74/pydantic_core-2.33.2-py3-none-any.whl", hash = "sha256:b7e57952227d6af103896924dc802aa5f4c2f9621759743bd96bce6809896417" }]
+
+[[package]]
+name = "sniffio"
+version = "1.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/61/89/sniffio-1.3.1.tar.gz", hash = "sha256:6189d97ff5fe3aac4874f7529e1d2a3e34f93575122bce8ce5756c06521fc893" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/d9/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:06ad555313f80f67bd94796fdca614ba88bc6605943965cd912fe20634681d3e" }]
+
+[[package]]
+name = "starlette"
+version = "0.46.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e9/b1/starlette-0.46.2.tar.gz", hash = "sha256:e9b1bd904e2ef58133a495cec6bf79ba4067253f54f5695d2cf580c71e764d01" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/bd/starlette-0.46.2-py3-none-any.whl", hash = "sha256:4c68e1a5d04e52626b0df0017a8be5a8aabd7f1966556d32a6e914bf61bf1f72" }]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/6f/typing-extensions-4.13.2.tar.gz", hash = "sha256:0f6f6537401fa0eac3b27c97401d754d06da76ff8f2bca5fafeaac49677f65c4" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/65/typing_extensions-4.13.2-py3-none-any.whl", hash = "sha256:3a11c2e8cb0a9241cb83a0c060cefe9023c3e48aa455e475525b24afb6e9907e" }]
+
+[[package]]
+name = "typing-inspection"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/40/4b/typing-inspection-0.4.0.tar.gz", hash = "sha256:404b012f3824de2f3e4bf7b893cb29598b9a40958fdfd8209d7cecf307809d94" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/01/typing_inspection-0.4.0-py3-none-any.whl", hash = "sha256:f9b8cd9dae09283795c91d90bf525e9fb742f78675d7e4bdc1ad3d1dda554e61" }]
+
+[[package]]
+name = "pytest"
+version = "8.3.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8d/42/pytest-8.3.5.tar.gz", hash = "sha256:8d427d69f4899fd985b4183ffba3fdd1629b6d1e9d9bae44040c1b292df6fa68" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/7d/pytest-8.3.5-py3-none-any.whl", hash = "sha256:8d927a092c8d5bb1f46039e9413c5f2e16f60843085287b4373f69844df4bd9b" }]
+
+[[package]]
+name = "iniconfig"
+version = "2.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/ee/iniconfig-2.1.0.tar.gz", hash = "sha256:c2ee6ba2c742a4806d947429688bd02917e57cfc6697b85362af54cf624e7dcb" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/6b/iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:a6f883029423a5631c1bb75b63c2408c5d56ad68f064d984828d0d0691479cc1" }]
+
+[[package]]
+name = "packaging"
+version = "25.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f7/a6/packaging-25.0.tar.gz", hash = "sha256:f7a644076709d8af24382bf5faa7201afdfbddcde64e1be8c782df9cb3156277" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/44/packaging-25.0-py3-none-any.whl", hash = "sha256:4031615594692bc841cb79908b6e29a24183b17990bdb14044bb8d382f7d2d58" }]
+
+[[package]]
+name = "pluggy"
+version = "1.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/2e/pluggy-1.5.0.tar.gz", hash = "sha256:e72e2d79e43d1b39652ca8495609ad3bb9e8ea6fc7febf654371f7d1c6a95e71" }
+wheels = [{ url = "https://files.pythonhosted.org/packages/2d/pluggy-1.5.0-py3-none-any.whl", hash = "sha256:9128bf82f3c7bef013b265d1f065f63ec2198f7a5f65c48a09b8f101c2af58f8" }]
