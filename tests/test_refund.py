@@ -21,3 +21,17 @@ def test_refunds_never_exceed_what_was_captured():
     refund(p, Decimal(80))
     with pytest.raises(RefundTooLarge):
         refund(p, Decimal(30))
+
+
+def test_a_retried_refund_emails_the_customer(monkeypatch):
+    from api.jobs.worker import RetryRefund
+    from api.store import payments, refunds
+
+    sent = []
+    monkeypatch.setattr("api.jobs.worker.send_refunded_email", lambda *a: sent.append(a))
+    p = captured(100)
+    payments[p.id] = p
+    r = refund(p, Decimal(10))
+    r.status = "pending"
+    RetryRefund(r.id).run()
+    assert sent == [("c1", Decimal(10))]

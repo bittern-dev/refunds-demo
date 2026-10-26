@@ -1,6 +1,7 @@
 from api.jobs.base import Job, RetryLater, backoff
+from api.emails.refunded import send_refunded_email
 from api.payments import bank
-from api.store import refunds
+from api.store import payments, refunds
 
 
 class RetryRefund(Job):
@@ -16,6 +17,7 @@ class RetryRefund(Job):
         refund = refunds[self.refund_id]
         if bank.send(refund):
             refund.mark_sent()
+            send_refunded_email(payments[refund.payment_id].customer_id, refund.amount)
         else:
             raise RetryLater(backoff(self.tries))
 
